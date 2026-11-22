@@ -55,27 +55,24 @@
 
 | 概览 | 模型看板 |
 |---|---|
-| ![概览](screenshots/01-overview.png) | ![模型](screenshots/02-models.png) |
+| ![概览](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/01-overview.png) | ![模型](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/02-models.png) |
 
 | API 密钥管理 | 模型广场 / 价格 |
 |---|---|
-| ![API Keys](screenshots/03-api-keys.png) | ![模型广场](screenshots/08-model-square.png) |
+| ![API Keys](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/03-api-keys.png) | ![模型广场](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/08-model-square.png) |
 
 | 钱包 / 充值（USDT） | Playground 在线调试 |
 |---|---|
-| ![钱包](screenshots/07-wallet.png) | ![Playground](screenshots/09-playground.png) |
+| ![钱包](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/07-wallet.png) | ![Playground](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/09-playground.png) |
 
 | 调用日志 | 审计日志 |
 |---|---|
-| ![用量](screenshots/04-usage-common.png) | ![审计](screenshots/05-usage-audit.png) |
+| ![用量](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/04-usage-common.png) | ![审计](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/05-usage-audit.png) |
 
 | 任务日志 | 排行榜 |
 |---|---|
-| ![任务日志](screenshots/06-usage-task.png) | ![排行榜](screenshots/10-rankings.png) |
+| ![任务日志](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/06-usage-task.png) | ![排行榜](https://raw.githubusercontent.com/LINMO-com/linmo-ai-relay/main/screenshots/10-rankings.png) |
 
-| 关于 | |
-|---|---|
-| ![关于](screenshots/11-about.png) | |
 
 ## 💬 加入交流群
 
