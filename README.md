@@ -22,32 +22,30 @@
 
 ## 💰 支持的支付方式
 
-| 方式 | 通道 | 说明 |
-|---|---|---|
-| **USDT（加密货币）** | 自建多链 USDT 网关 | 支持 6 条链，链上实时监听到账 |
-| **USDT 链** | TRC20 / ERC20 / Arbitrum / Polygon / BNC(BSC) / Base | BEP20(BSC) 手续费低，推荐 |
-| **微信 / 支付宝** | 易支付通道 | 免签聚合收款，订单自动核对 |
+| 方式 | 说明 |
+|---|---|
+| **USDT（加密货币）** | 自建多链 USDT 网关，链上实时监听到账，资金直达自有钱包 |
+| **支持链** | TRC20 / ERC20 / Arbitrum / Polygon / BSC(BEP20) / Base |
 
-> USDT 同名但跨链不互通，充值时请选择与网关匹配的链；固定地址模式请勿混链转账。
+> BEP20(BSC) 手续费低，推荐使用。USDT 同名但跨链不互通，充值时请选择正确的链。
 
 ## 🔧 底层框架
 
-服务端基于成熟稳定的中转框架构建，自研支付与监听模块：
+服务端基于成熟稳定的中转框架构建，自研多链支付与到账监听模块：
 
 | 层 | 技术 |
 |---|---|
-| API 核心 | **new-api**（Go，v1.0.0-rc.51）—— 多模型聚合、分组倍率、计费与渠道调度 |
-| 支付网关 | **mpay 易支付协议** + 自建 **NexPay 多链 USDT 网关**（Node.js / TypeScript + React） |
+| API 核心 | **new-api**（Go）—— 多模型聚合、分组倍率、计费与渠道调度 |
+| 支付网关 | 自建 **NexPay 多链 USDT 网关**（Node.js / TypeScript + React） |
 | 到账监听 | 链上 JSON-RPC `eth_getLogs` / TronGrid 每 15 秒轮询，确认数达标自动入账 |
-| 通知转发 | SmsForwarder → Webhook（HMAC 签名）上报支付结果 |
 | 数据存储 | SQLite / MySQL |
 
 ## 🚀 快速开始
 
 1. 注册账号并登录控制台，创建 API Key。
-2. 将客户端 Base URL 改为本服务地址：
+2. 将客户端 Base URL 改为：
    ```
-   https://你的域名/v1
+   https://new.77743.top/v1
    ```
 3. 选择模型，按 OpenAI 标准格式调用即可。
 
