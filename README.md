@@ -49,6 +49,34 @@
    ```
 3. 选择模型，按 OpenAI 标准格式调用即可。
 
+## 🖼️ 控制台界面预览
+
+> 以下均为用户控制台真实界面截图（仅展示用户功能，不含任何后台管理操作）。
+
+| 概览 | 模型看板 |
+|---|---|
+| ![概览](screenshots/01-overview.png) | ![模型](screenshots/02-models.png) |
+
+| API 密钥管理 | 模型广场 / 价格 |
+|---|---|
+| ![API Keys](screenshots/03-api-keys.png) | ![模型广场](screenshots/08-model-square.png) |
+
+| 钱包 / 充值（USDT） | Playground 在线调试 |
+|---|---|
+| ![钱包](screenshots/07-wallet.png) | ![Playground](screenshots/09-playground.png) |
+
+| 调用日志 | 审计日志 |
+|---|---|
+| ![用量](screenshots/04-usage-common.png) | ![审计](screenshots/05-usage-audit.png) |
+
+| 任务日志 | 排行榜 |
+|---|---|
+| ![任务日志](screenshots/06-usage-task.png) | ![排行榜](screenshots/10-rankings.png) |
+
+| 关于 | |
+|---|---|
+| ![关于](screenshots/11-about.png) | |
+
 ## 💬 加入交流群
 
 有任何问题、模型需求、充值答疑，欢迎加入官方 QQ 群：
